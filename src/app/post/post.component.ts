@@ -30,6 +30,8 @@ export class PostComponent implements OnInit {
   path = 'https://jsonplaceholder.typicode.com/';
   posts: Post[];
   users: User[];
+  today = new Date(2018,11,5);
+  filterText:string;
 
   ngOnInit() {
 
